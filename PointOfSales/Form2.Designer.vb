@@ -42,15 +42,6 @@ Partial Class Form2
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage12 = New System.Windows.Forms.TabPage()
         Me.TabPage13 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.TabPage18 = New System.Windows.Forms.TabPage()
         Me.TabPage19 = New System.Windows.Forms.TabPage()
         Me.TabPage20 = New System.Windows.Forms.TabPage()
@@ -59,7 +50,16 @@ Partial Class Form2
         Me.TabPage23 = New System.Windows.Forms.TabPage()
         Me.TabPage24 = New System.Windows.Forms.TabPage()
         Me.TabPage25 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.CheckedListBox2 = New System.Windows.Forms.CheckedListBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl2.SuspendLayout()
@@ -286,92 +286,6 @@ Partial Class Form2
         Me.TabPage13.Text = "LENOVO"
         Me.TabPage13.UseVisualStyleBackColor = True
         '
-        'TabPage3
-        '
-        Me.TabPage3.Controls.Add(Me.TextBox4)
-        Me.TabPage3.Controls.Add(Me.TextBox3)
-        Me.TabPage3.Controls.Add(Me.CheckedListBox1)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 30)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(528, 373)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "COMPUTER PARTS"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(250, 291)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.PlaceholderText = "Price"
-        Me.TextBox4.Size = New System.Drawing.Size(165, 29)
-        Me.TextBox4.TabIndex = 2
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(24, 291)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.PlaceholderText = "Brand"
-        Me.TextBox3.Size = New System.Drawing.Size(193, 29)
-        Me.TextBox3.TabIndex = 1
-        '
-        'CheckedListBox1
-        '
-        Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Items.AddRange(New Object() {"HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(24, 27)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(451, 244)
-        Me.CheckedListBox1.TabIndex = 0
-        '
-        'TabPage4
-        '
-        Me.TabPage4.Controls.Add(Me.CheckedListBox2)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 30)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(528, 373)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "ACCESSORIES"
-        Me.TabPage4.UseVisualStyleBackColor = True
-        '
-        'TabPage5
-        '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 30)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(528, 373)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "FREEBIES"
-        Me.TabPage5.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.Location = New System.Drawing.Point(625, 224)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(117, 55)
-        Me.Button3.TabIndex = 9
-        Me.Button3.Text = "Add"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.Location = New System.Drawing.Point(782, 224)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(112, 56)
-        Me.Button4.TabIndex = 10
-        Me.Button4.Text = "Delete"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button5.Location = New System.Drawing.Point(671, 345)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(190, 44)
-        Me.Button5.TabIndex = 11
-        Me.Button5.Text = "Continue"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'TabPage18
         '
         Me.TabPage18.Location = New System.Drawing.Point(4, 30)
@@ -444,6 +358,53 @@ Partial Class Form2
         Me.TabPage25.Text = "TabPage25"
         Me.TabPage25.UseVisualStyleBackColor = True
         '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.TextBox4)
+        Me.TabPage3.Controls.Add(Me.TextBox3)
+        Me.TabPage3.Controls.Add(Me.CheckedListBox1)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 30)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(528, 373)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "COMPUTER PARTS"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(250, 291)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.PlaceholderText = "Price"
+        Me.TextBox4.Size = New System.Drawing.Size(165, 29)
+        Me.TextBox4.TabIndex = 2
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(24, 291)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.PlaceholderText = "Brand"
+        Me.TextBox3.Size = New System.Drawing.Size(193, 29)
+        Me.TextBox3.TabIndex = 1
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Items.AddRange(New Object() {"HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI", "HDMI"})
+        Me.CheckedListBox1.Location = New System.Drawing.Point(24, 27)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(451, 244)
+        Me.CheckedListBox1.TabIndex = 0
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.CheckedListBox2)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 30)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(528, 373)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "ACCESSORIES"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
         'CheckedListBox2
         '
         Me.CheckedListBox2.FormattingEnabled = True
@@ -452,11 +413,50 @@ Partial Class Form2
         Me.CheckedListBox2.Size = New System.Drawing.Size(295, 196)
         Me.CheckedListBox2.TabIndex = 1
         '
+        'TabPage5
+        '
+        Me.TabPage5.Location = New System.Drawing.Point(4, 30)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(528, 373)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "FREEBIES"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.Location = New System.Drawing.Point(625, 224)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(117, 55)
+        Me.Button3.TabIndex = 9
+        Me.Button3.Text = "Add"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.Location = New System.Drawing.Point(782, 224)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(112, 56)
+        Me.Button4.TabIndex = 10
+        Me.Button4.Text = "Delete"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button5.Location = New System.Drawing.Point(671, 345)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(190, 44)
+        Me.Button5.TabIndex = 11
+        Me.Button5.Text = "Continue"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.ClientSize = New System.Drawing.Size(895, 460)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
